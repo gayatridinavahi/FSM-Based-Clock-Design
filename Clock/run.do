@@ -4,6 +4,6 @@ vlib work
 
 vlog -f $1 +acc -sv
 vsim work.tb
-#add wave -r *
-do wave.do
+#add wave -r * //uncomment for first time simulation.
+do wave.do  //comment for first-time simulation.
 run -all
